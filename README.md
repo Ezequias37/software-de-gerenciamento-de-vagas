@@ -85,7 +85,7 @@ Os usuários devem respeitar as regras e regulamentos do estacionamento.<br><hr>
 <h3>2) Reserva de vaga de estacionamento</h3>
 <p><b>Como/Sendo:</b> usuário </p>
 <p><b>Quero/Posso:</b> poder reservar uma vaga de estacionamento por um período específico de tempo através do aplicativo </p>
-<p><b>Para:</b>  garantir um local quando chegar ao meu destino</p></br>
+<p><b>Para:</b>  garantir um local para guardar meu carro</p></br>
  
   
 <h3>Cenário de aceitação:</h3>
