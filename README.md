@@ -78,7 +78,7 @@ Os usuários devem respeitar as regras e regulamentos do estacionamento.<br><hr>
 <p><b>Dado que:</b> estou na tela de registro do aplicativo </p>
 <p><b>Quando:</b> preencho todos os campos obrigatórios com informações válidas </p>
 </p><b>E:</b> clico no botão de cadastro <p>
-<p><b>Então:</b> devo receber uma confirmação de que meu cadastro foi realizado com sucesso. </p></br>
+<p><b>Então:</b> devo receber uma confirmação via e-mail de que meu cadastro foi realizado com sucesso. </p></br>
  
  <p>Grau de complexidade &#128557;</p> 
 
