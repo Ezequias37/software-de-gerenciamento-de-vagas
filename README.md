@@ -218,6 +218,16 @@ Os usuários devem respeitar as regras e regulamentos do estacionamento.<br><hr>
 <p>RNF 04-Criptografia: O sitema deve manter informações dos usuários restrito e protegido.
 <p>RF 11- Recebimento: o sistema enviará um recibo por e-mail após o pagamento.
 </ul>
-</hr>
+<hr>
+<h2>Arquitetura do software</h2>                           
+<h3>Visão implementação:</h3>
+<p>Link para a visualizção do padrjão arquitetural <a href = "https://lucid.app/lucidchart/05ffca38-a30d-4ec6-91b9-4e7ce817da92/edit?viewport_loc=-7004%2C25%2C12630%2C5723%2C0_0&invitationId=inv_7d70fdf5-a73a-4ed5-89e7-0ce060c34391"> clique aqui</a></p>
+
+<a href = "https://lucid.app/lucidchart/7204057e-9a49-4134-920d-988f7b5d3c3b/edit?viewport_loc=-1561%2C-2218%2C8722%2C3952%2C0_0&invitationId=inv_0074df80-f012-4455-b02b-13709f491db7">clique aq</a>
+
+
+
+
+
 
 
