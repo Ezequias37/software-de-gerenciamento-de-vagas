@@ -228,9 +228,17 @@ Os usuários devem respeitar as regras e regulamentos do estacionamento.<br><hr>
 
 <p>Link para a visualização da interação do sistema <a href = "https://lucid.app/lucidchart/7204057e-9a49-4134-920d-988f7b5d3c3b/edit?viewport_loc=-1561%2C-2218%2C8722%2C3952%2C0_0&invitationId=inv_0074df80-f012-4455-b02b-13709f491db7">clique aqui</a>
 
+<h3>Banco de Dados:</h3>
+
+<p>Link para o modelo de banco de dados <a href = "https://lucid.app/lucidchart/2be0982d-92a3-4484-8109-c1dad394707d/edit?view_items=AeVz73qQj35D&invitationId=inv_4f23783f-48d9-48f1-b7b3-25f84d821d74">clique aqui</a>
+
 <h3>Visão de Processo:</h3>
 
-<b>Cadastro do usuario</b>
+<b>Cadastro do usuario e Login:</b>
+<p>O cliente deverá acessar o site, onde ele deverá clicar para fazer o cadastro, informando seu nome, email e senha.<br>
+Logo apos o cadastro devera ser realizado o login utilizando o email e senha. <br>
+
+<b>Cadastro do veiculo:</b>
 
 
 
