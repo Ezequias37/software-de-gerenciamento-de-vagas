@@ -238,7 +238,20 @@ Os usuários devem respeitar as regras e regulamentos do estacionamento.<br><hr>
 <p>O cliente deverá acessar o site, onde ele deverá clicar para fazer o cadastro, informando seu nome, email e senha.<br>
 Logo apos o cadastro devera ser realizado o login utilizando o email e senha. <br>
 
+<b>Visualização das vagas :</b>
+<p>Após o cadastro, o cliente poderá acessar o site, onde terá visibilidade das vagas e dos horários em que a vaga estará disponível para reserva; no entanto, ele não poderá fazer a reserva até que seja feito o cadastro do veículo e a verificação dos dados.</p>
+
+<b>Verificação de dados :</b>
+<p>O cliente deverá colocar suas informações para que o cadastro seja completo, incluindo seu CPF, número de telefone e data de nascimento.</p>
+
 <b>Cadastro do veiculo:</b>
+<p>O cliente deverá cadastrar ao menos um veículo, informando o modelo do carro e a placa, para que consiga fazer a reserva da vaga.</p>
+
+<b>Reserva de vagas:</b>
+<p>O usuário poderá selecionar uma vaga que deseja; onde verá o horário em que a vaga selecionada estará disponível, bem como os horários já reservados; e poderá escolher o horário que não estiver reservado, com base em sua escolha.</p>
+
+<b>Confirmação da vaga:</b>
+O sistema avisará ao cliente que ele recebeu uma mensagem no email cadastrado e pedirá que seja feita a confirmação.
 
 
 
