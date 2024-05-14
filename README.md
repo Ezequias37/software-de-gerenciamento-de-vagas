@@ -260,7 +260,7 @@ Logo apos o cadastro devera ser realizado o login utilizando o email e senha. <b
 <p>O sistema devera calcular o valor com base no tempo reservado pelo cliente. </p>
 
 <b>Pagamento:</b>
-<p>O Sistema devera enviar uma notificação pelo email do usuario para realização do pagamento com a escolha do cliente se o pagamento sera realizado por cartão ou boleto. </p>
+<p>O Sistema devera enviar uma notificação pelo email do usuario para realização do pagamento direcionando para o site na area de pagamento onde ele podera escolher a forma de pagamento. </p>
 
 <b>Recebimento:</b>
 <p>O Sistema devera enviar uma notificação pelo email do usuario com a confirmação do pagamento. </p>
