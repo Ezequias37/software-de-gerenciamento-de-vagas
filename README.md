@@ -222,7 +222,7 @@ Os usuários devem respeitar as regras e regulamentos do estacionamento.<br><hr>
 <h2>Arquitetura do software</h2>                           
 <h3>Modelo de arquitetura:</h3>
 <p>Link para a visualização do padrão arquitetural <a href = "https://lucid.app/lucidchart/05ffca38-a30d-4ec6-91b9-4e7ce817da92/edit?viewport_loc=-7004%2C25%2C12630%2C5723%2C0_0&invitationId=inv_7d70fdf5-a73a-4ed5-89e7-0ce060c34391"> clique aqui</a></p>
-<p>Escolhemos o modelo de arquitetura em camadas.</p>
+<p>Escolhemos o modelo de arquitetura MVC.</p>
   
 <h3>Interação Sistema:</h3>
 
@@ -235,14 +235,11 @@ Os usuários devem respeitar as regras e regulamentos do estacionamento.<br><hr>
 <h3>Visão de Processo:</h3>
 
 <b>Cadastro do usuario e Login:</b>
-<p>O cliente deverá acessar o site, onde ele deverá clicar para fazer o cadastro, informando seu nome, email e senha.<br>
+<p>O cliente deverá acessar o site, onde ele deverá clicar para fazer o cadastro, informando seu nome, CPF, e data de nascimento, email e senha.<br>
 Logo apos o cadastro devera ser realizado o login utilizando o email e senha. <br>
 
 <b>Visualização das vagas :</b>
-<p>Após o cadastro, o cliente poderá acessar o site, onde terá visibilidade das vagas e dos horários em que a vaga estará disponível para reserva; no entanto, ele não poderá fazer a reserva até que seja feito o cadastro do veículo e a verificação dos dados.</p>
-
-<b>Verificação de dados :</b>
-<p>O cliente deverá colocar suas informações para que o cadastro seja completo, incluindo seu CPF, número de telefone e data de nascimento.</p>
+<p>Após o cadastro, o cliente poderá acessar o site, onde podera escolher o estacionamento que deseja ir e terá visibilidade das vagas e dos horários em que a vaga estará disponível para reserva; no entanto, ele não poderá fazer a reserva até que seja feito o cadastro do veículo.</p>
 
 <b>Cadastro do veiculo:</b>
 <p>O cliente deverá cadastrar ao menos um veículo, informando o modelo do carro e a placa, para que consiga fazer a reserva da vaga.</p>
@@ -251,8 +248,23 @@ Logo apos o cadastro devera ser realizado o login utilizando o email e senha. <b
 <p>O usuário poderá selecionar uma vaga que deseja; onde verá o horário em que a vaga selecionada estará disponível, bem como os horários já reservados; e poderá escolher o horário que não estiver reservado, com base em sua escolha.</p>
 
 <b>Confirmação da vaga:</b>
-O sistema avisará ao cliente que ele recebeu uma mensagem no email cadastrado e pedirá que seja feita a confirmação.
+<p>O sistema avisará ao cliente que ele recebeu uma mensagem no email cadastrado e pedirá que seja feita a confirmação.</p>
 
+<b>Historico de reservas:</b>
+<p>O cliente pode optar por visualizar as reservas ativas e as reservas anteriores.</p>
 
+<b>Check-in e Check-out:</b>
+<p>O cliente tera que fazer um Check-in ao ocupar a vaga e um Check-out apos a liberação da vaga para que possa ser feito a finalização da reserva e o calculo do tempo da reserva. </p>
 
+<b>Calculo de pagamento:</b>
+<p>O sistema devera calcular o valor com base no tempo reservado pelo cliente. </p>
 
+<b>Pagamento:</b>
+<p>O Sistema devera enviar uma notificação pelo email do usuario para realização do pagamento com a escolha do cliente se o pagamento sera realizado por cartão ou boleto. </p>
+
+<b>Recebimento:</b>
+<p>O Sistema devera enviar uma notificação pelo email do usuario com a confirmação do pagamento. </p>
+
+<b>Atualização de reserva:</b>
+
+<p>O Sistema devera atualizar a disponibilidade da vaga apos o check-out do usuario. </p>
