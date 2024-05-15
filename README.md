@@ -55,16 +55,14 @@ Os usuários devem respeitar as regras e regulamentos do estacionamento.<br><hr>
   <h3>Grau de complexidade</h3>
   <table> 
   <tr>
-    <th> Dificil</th> 
-    <th>Médio</th>
-      <th>Fácil</th>
-  </tr>
-  <tr>
-    <th> &#128557;</th> 
-    <th>&#128517;</th>
-      <th>&#128513;</th>
-   </tr>
 
+
+| Fácil    | Médio     | Difícil  |
+|---------:|-----------|----------|
+|&#128513; |&#128517;  | &#128557;|
+
+  </tr>
+ 
   </table>
   
  <h3>1) Registro de usuário</h3>
