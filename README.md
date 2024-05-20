@@ -1,4 +1,4 @@
-<h1>Estacione bem</h1>
+<h1>Estacione Bem</h1>
 <h2>Especificação de requisitos</h2>
 <b>1. Introdução</b><br><br>
 <b>1.1. Propósito do Documento de Requisitos</b>
