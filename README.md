@@ -266,3 +266,28 @@ Logo apos o cadastro devera ser realizado o login utilizando o email e senha. <b
 <b>Atualização de reserva:</b>
 
 <p>O Sistema devera atualizar a disponibilidade da vaga apos o check-out do usuario. </p>
+<h3>Visão Lógica:</h3>
+
+<b>Modelo de banco de dados:</b>
+<p>Usuário: A entidade usuário deve conter os atributos nome, cpf, sendo cpf a chave primária dessa entidade, email e senha. </p>
+<p>Empresa: A entidade empresa deve conter os atributos cnpj, sendo cnpj a chave primária, nome fantasia, razão social, cep, sendo o cep a chave estrangeira da entidade endereço, telefone, email e senha</p>
+<p>Endereço: A entidade endereço deve conter os atributos  tipo de logradouro, nome do logradouro, cep, sendo cep a chave primária número, bairro, cidade, e uf.</p>
+<p>Veículo: A entidade veículo deve conter os atributos modelo e placa, sendo placa a chave primária.</p>
+<p>Reserva: A entidade reserva deve conter os atributos data, horário de entrada, horário de saída, placa, e cpf, placa é chave estrangeira da entidade veículo e cpf chave estrangeira da entidade usuário.</p>
+<p>Estacionamento: A entidade estacionamento deve conter os atributos de cnpj e cep, sendo cnpj a chave estrangeira de empresa e cep a chave estrangeira de endereço.</p>
+
+<b>Lógica de negócios</b>
+<p>Gestão de reservas: O sistema deve permitir ao usuário a entrada de dados do horário de entrada e horário de saída, e a placa do veículo e logo após o sistema deve fornecer o valor do tempo estacionado e também deve fornecer as vagas disponíveis.</p>
+<p>Gestão de pagamentos: O sistema deve fornecer aos usuários diversas formas de pagamentos, como pix, cartão de crédito e débito.</p>
+
+<b>Regras de negócio</b>
+<p>Confirmação da reserva: A reserva só pode ser confirmada e autorizada após a realização do pagamento.</p>
+<p>Segurança e privacidade: O sistema deve sempre autenticar seus usuários para, após, o usuário ter acesso ao software.</p>
+<p>Tempo Mínimo de Estadia:O sistema deve possuir um tempo mínimo de estadia de 15 minutos.</p>
+
+<b>Interações externas:</b>
+<p>Sistema de pagamento: O sistema pode integrar-se a um gateway de pagamento externo para processar transações de pagamento com segurança.</p>
+
+<b>Interfaces do usuário</b>
+<p>Páginas web: O sistema deve fornecer páginas de cadastro, reserva e visualização das vagas, area de pagamento e página de login</p>
+
