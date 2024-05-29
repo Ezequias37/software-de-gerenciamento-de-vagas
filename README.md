@@ -291,3 +291,54 @@ Logo apos o cadastro devera ser realizado o login utilizando o email e senha. <b
 <b>Interfaces do usuário</b>
 <p>Páginas web: O sistema deve fornecer páginas de cadastro, reserva e visualização das vagas, area de pagamento e página de login</p>
 
+<h3>Visão Fisica:</h3>
+
+<h3>Frontend (Interface do Usuário):</h3>
+
+<b>a. Página de Cadastro/Login:</b>
+- Interface para os usuários se cadastrarem com nome, e-mail e senha.
+- Opção para recuperação de senha.
+
+<b>b. Página de Visualização de Vagas:</b>
+- Mostra as vagas disponíveis no estacionamento, destacando as ocupadas e as livres.
+- Interface intuitiva para os usuários identificarem rapidamente as vagas disponíveis.
+
+<b>c. Página de Reserva de Vagas:</b>
+- Permite aos usuários selecionar uma vaga e agendar um horário de reserva.
+- Após a reserva, uma confirmação é exibida na tela e um e-mail de confirmação é enviado.
+
+<b>d. Página de Check-in/Check-out:</b>
+- Permite aos usuários fazer check-in ao ocupar uma vaga e check-out ao liberá-la.
+- Calcula o tempo de permanência e o valor do estacionamento com base nesse tempo.
+
+<b>e. Página de Pagamento:</b>
+- Oferece opções de pagamento diário, mensal ou quinzenal.
+- Integração com serviços de pagamento online para processar transações de forma segura.
+
+<b>f. Página de Histórico de Estacionamento:</b>
+- Mostra o histórico de estacionamento e pagamentos anteriores dos usuários.
+- Interface amigável para navegar pelo histórico de forma fácil e rápida.
+
+<h3>Backend (Componentes do Sistema):</h3>
+
+<b>a. Servidor de Aplicação:</b>
+- Gerencia a lógica de negócios do sistema, incluindo o processamento de reservas, pagamentos e histórico de estacionamento.
+
+<b>b. Banco de Dados:</b>
+- Armazena informações dos usuários, vagas de estacionamento, reservas e histórico de pagamentos.
+- Garante a integridade e segurança dos dados dos usuários.
+
+<b>c. Sistema de E-mail:</b>
+- Responsável pelo envio de e-mails de confirmação de reserva, recuperação de senha e recibos de pagamento.
+
+<b>d. Sistema de Pagamento:</b>
+- Integração com serviços de pagamento online para processar transações de forma segura e eficiente.
+
+<h3>Infraestrutura:</h3>
+
+<b>a. Servidores e Redes:</b>
+- Garante a disponibilidade e desempenho do sistema, capaz de lidar com um grande volume de usuários simultaneamente.
+- Implementa medidas de segurança para proteger os dados dos usuários e garantir transações criptografadas.
+
+<b>b. Plataformas Móveis:</b>
+- Desenvolvimento de aplicativos móveis para Android e iOS, garantindo responsividade e usabilidade em dispositivos móveis.
