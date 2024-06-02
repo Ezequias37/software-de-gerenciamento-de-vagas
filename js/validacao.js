@@ -49,7 +49,7 @@ function validarSenha(){
     var senhaV = document.getElementById("senhaV");
 
     if(senha.value.length < 8){
-        senhaV.innerHTML = "Senha: A senha deve conter 8 caracteres";
+        senhaV.innerHTML = "Senha: A senha deve no minimo conter 8 caracteres";
         senhaV.style.color = "red"
         return false
     }else{
@@ -83,6 +83,75 @@ function validarLogin(){
         return false; 
     }
 }
+function validarSenhaC(){
+    var senha = document.getElementById("senha").value
+    var senhaC = document.getElementById("senhaC").value
+    var senhaVC = document.getElementById("senhaVC")
+    if(senha == senhaC ){
+        senhaVC.innerHTML = "Confirmar senha:"; 
+        senhaVC.style.color = "";
+        return true 
+    }else{
+        senhaVC.innerHTML = "Confirmar senha: Os campos nao são compativeis";
+        senhaVC.style.color = "red"
+        return false
+    }
+}
+function validarSenhas(){
+    senhaValido = validarSenha();
+    senhaValidoC = validarSenhaC();
+    if(senhaValido && senhaValidoC){
+        window.location.href = "index.html";
+        return false;
+    }else{
+        alert("Por favor, preencha todos os campos corretamente.");
+        return false; 
+    }
+}
+function gerarPix(){
+    alert("Seu codigo e pxjs30ck90")
+}
+function numCartao(){
+    cartao = document.getElementById("cartao")
+    cartaoV = document.getElementById("cartaoV")
+    var cartaoLimpo = cartao.value.replace(/\D/g, '');
+    if(cartaoLimpo.length < 16){
+        cartaoV.innerHTML = "Numero do cartão: Campo invalido";
+        cartaoV.style.color = "red"
+        return false
+    }else{
+        cartaoV.innerHTML = "Numero do cartão: ";
+        cartaoV.style.color = ""
+        var cartaoFormatado = cartaoLimpo.substr(0, 4) + ' ' + cartaoLimpo.substr(4, 4) + ' ' + cartaoLimpo.substr(8, 4) + ' ' + cartaoLimpo.substr(12,4)+ ' ' ;
+        document.getElementById("cartao").value = cartaoFormatado;
+        return true
+    }
+}
+function validarCvv(){
+    cvv = document.getElementById("cvv")
+    cvvV = document.getElementById("cvvV")
+    if(cvv.value.length <3){
+        cvvV.innerHTML = "Cvv: Campo invalido";
+        cvvV.style.color = "red"
+        return false 
+    }else{
+        cvvV.innerHTML = "Cvv:";
+        cvvV.style.color = ""
+        return true 
+    }
+}
+function validarCartao(){
+    cartaoValido = numCartao();
+    nomeValido = validarNome();
+    cvvValido = validarCvv();
+    if (nomeValido && cartaoValido && cvvValido) {
+        alert("Pagamento efetuado com sucesso");
+        return false;
+    } else {
+        alert("Por favor, preencha todos os campos corretamente.");
+        return false; 
+    }
 
+}
 
 
