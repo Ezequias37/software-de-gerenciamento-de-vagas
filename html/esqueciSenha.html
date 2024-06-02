@@ -10,10 +10,12 @@
 <body>
     <div class="logo"><img src="logo.png" width="200px" ></div>
     <div class="blocoCentro">
-        <div class="titulo"><b>Cadastro:</b></div><br>
+        <div class="titulo"><b>Esqueci senha:</b></div><br>
         <p id="senhaV">Senha:</p>
-        <input type="password" class="borda-input" id="senha" oninput="validarSenha()" ><br><br>
-        
+        <input type="password" class="borda-input2" id="senha" oninput="validarSenha()" ><br><br>
+        <p id="senhaVC">Confirmar senha:</p>
+        <input type="password" class="borda-input2" id="senhaC" oninput="validarSenhaC()" ><br><br>
+        <button class="enviarL" onclick="validarSenhas()">Entrar</button>
     </div>
 </body>
 </html>
