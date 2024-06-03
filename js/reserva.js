@@ -7,16 +7,15 @@ function validarCampos() {
 
     if (!modelo || !placa || !dataReserva || !horarioReserva || !tempoReserva) {
         alert('Por favor, preencha todos os campos.');
-        return false; // Impede o envio do formulário
+        return false; 
     }
 
     if (placa.length !== 7) {
         alert('A placa deve conter exatamente 7 caracteres.');
-        return false; // Impede o envio do formulário
+        return false;
     }
 
-    // Redireciona para a página de pagamento
     window.location.href = '../html/areaPagamento.html';
 
-    return false; // Impede o envio do formulário através da submissão padrão
+    return false;
 }
