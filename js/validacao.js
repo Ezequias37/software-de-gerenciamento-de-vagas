@@ -65,7 +65,7 @@ function validar() {
     var senhaValido = validarSenha();
 
     if (nomeValido && cpfValido && emailValido && senhaValido) {
-        window.location.href = "enderecos.html";
+        window.location.href = "../html/enderecos.html";
         return false;
     } else {
         alert("Por favor, preencha todos os campos corretamente.");
@@ -76,7 +76,7 @@ function validarLogin(){
     var emailValido = validarEmail();
     var senhaValido = validarSenha();
     if (emailValido && senhaValido) {
-        window.location.href = "enderecos.html";
+        window.location.href = "../html/enderecos.html";
         return false;
     } else {
         alert("Por favor, preencha todos os campos corretamente.");
@@ -101,7 +101,7 @@ function validarSenhas(){
     senhaValido = validarSenha();
     senhaValidoC = validarSenhaC();
     if(senhaValido && senhaValidoC){
-        window.location.href = "index.html";
+        window.location.href = "../html/index.html";
         return false;
     }else{
         alert("Por favor, preencha todos os campos corretamente.");
@@ -109,7 +109,11 @@ function validarSenhas(){
     }
 }
 function gerarPix(){
-    alert("Seu codigo e pxjs30ck90")
+    alert("Seu codigo é pxjs30ck90");
+    setTimeout(function() {
+        window.location.href = '../html/historico-reservas.html';
+    }, 2000);
+
 }
 function numCartao(){
     cartao = document.getElementById("cartao")
@@ -146,6 +150,9 @@ function validarCartao(){
     cvvValido = validarCvv();
     if (nomeValido && cartaoValido && cvvValido) {
         alert("Pagamento efetuado com sucesso");
+        setTimeout(function() {
+        window.location.href = '../html/historico-reservas.html';
+    }, 2000);
         return false;
     } else {
         alert("Por favor, preencha todos os campos corretamente.");
@@ -153,5 +160,6 @@ function validarCartao(){
     }
 
 }
+
 
 
